@@ -286,7 +286,15 @@ header {
 .steps .item.third span.ico {
 	background: url(../img/ico-step-3.png) 0 100%;
 }
-
+.steps .item.forth span.ico {
+	background: url(../img/ico-step-4.png) 0 100%;
+}
+.steps .item.fifth span.ico {
+	background: url(../img/ico-step-5.png) 0 100%;  
+}
+.steps .item.sixth span.ico {
+	background: url(../img/ico-step-6.png) 0 100%;
+}
 /* Video ----------------------------*/
 .generic-section {
 	padding: 3% 0;
