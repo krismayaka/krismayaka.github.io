@@ -323,7 +323,7 @@ header {
 .testimonials {
 	background: url("../img/testimonials-bg.jpg") center center no-repeat;
 	background-size: cover;
-	padding: 3% 0;
+	padding: 1% 0;
 }
 .list-testimonials, .list-testimonials li {
 	color: white;
