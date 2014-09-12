@@ -1,0 +1,286 @@
+/* Theme Options */
+
+/*
+	--//-- 1. Color Options --//--
+
+	- Theme color - 2898ac (rgba - 40,152,172);
+	- Main text color - 666666;
+	- Heading color - 252727;
+	- Page title heading color - 252727;
+	- Footer text color - 666666;
+	- Main menu text color - 333333;
+	- Submenu text color - a2a5a5;	
+	
+	--//-- 2. Theme Fonts --//--
+   
+	- Main font - Amethysta;
+	- Headers font - Amethysta;
+	
+*/
+	
+
+/* Default background color */
+body {
+	background:#e9ecec;
+}
+
+
+/* main text color */
+p, td, div,
+a:hover,
+a:hover span,
+.contact_info_item .contact_info_text a,
+.listing_meta span a,
+.prev_next_links a,
+.prev_next_links a:before,
+.prev_next_links a:after,
+.thiscommentbody a,
+.thiscommentbody span,
+.pagerblock li a,
+.optionset li a,
+.search_form:before,
+.widget_nav_menu ul li a,
+.widget_archive ul li a,
+.widget_pages ul li a,
+.widget_categories ul li a,
+.widget_recent_entries ul li a,
+.widget_nav_menu ul li a:hover,
+.widget_archive ul li a:hover,
+.widget_pages ul li a:hover,
+.widget_categories ul li a:hover,
+.widget_recent_entries ul li a:hover,
+.widget_nav_menu ul li a:hover:before,
+.widget_archive ul li a:hover:before,
+.widget_pages ul li a:hover:before,
+.widget_categories ul li a:hover:before,
+.widget_recent_entries ul li a:hover:before,
+.widget_nav_menu ul li a:before,
+.widget_archive ul li a:before,
+.widget_pages ul li a:before,
+.widget_categories ul li a:before,
+.widget_recent_entries ul li a:before,
+.widget_posts li a,
+.widget_posts li a:before,
+.widget_tag_cloud a,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+.widget_meta a,
+.widget_recent_comments a {
+	color:#666666;
+}
+.featured_items_meta a:hover,
+.featured_item_content a:hover {
+	color:#666666!important;
+}
+footer, footer .copyright,
+section.socials li a:before,
+section.socials li a:hover:before {
+	color:#666666;
+}
+
+
+/* header color style */
+.main_header ul.menu > li > a,
+.main_header ul.menu > li > a span {
+	color:#333333;
+}
+.main_header ul.menu > li > a > span:before {
+	background-color:#c1c7c9;
+}
+.main_header ul.menu > li > ul.sub-menu > li,
+.mobile_menu_wrapper {
+	background-color:#252727;
+}
+.main_header ul.menu > li > ul.sub-menu > li > a,
+.main_header ul.menu > li > ul.sub-menu > li > a span,
+.main_header ul.menu > li > ul.sub-menu > li > a:hover span,
+.mobile_menu_wrapper a,
+.mobile_menu_wrapper a span {
+	color:#a2a5a5;
+}
+.main_header ul.menu > li > ul.sub-menu > li:hover > a,
+.main_header ul.menu > li > ul.sub-menu > li:hover > a span,
+.main_header ul.menu > li > ul.sub-menu > li.current-menu-item > a,
+.main_header ul.menu > li > ul.sub-menu > li.current-menu-item > a span,
+.main_header ul.menu > li > ul.sub-menu > li.current-menu-parent > a,
+.main_header ul.menu > li > ul.sub-menu > li.current-menu-parent > a span,
+.mobile_menu li.current-menu-parent > a,
+.mobile_menu li.current-menu-parent > a span,
+.mobile_menu li.current-menu-item > a,
+.mobile_menu li.current-menu-item > a span {
+	color:#ffffff;
+}
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li {
+	background-color:#363939;
+}
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li > a,
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li > a span {
+	color:#a2a5a5;
+}
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li:hover > a,
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li:hover > a span,
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li.current-menu-item > a,
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li.current-menu-item > a span,
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li.current-menu-parent > a,
+.main_header ul.menu > li > ul.sub-menu > li > ul.sub-menu > li.current-menu-parent > a span {
+	color:#ffffff;
+}
+
+
+/* Selection background */
+::selection {background:#2898ac;
+}
+::-moz-selection {background:#2898ac;
+}
+
+
+/* user custom color */
+.highlighted_colored,
+.shortcode_button.btn_type5,
+.most_popular .price_item_title,
+.shortcode_button.btn_type1:hover,
+.shortcode_button.btn_type2:hover,
+.shortcode_button.btn_type3:hover,
+.shortcode_button.btn_type4:hover,
+.nivo-directionNav a:hover,
+.most_popular .price_item_btn a,
+.price_item_btn a:hover {
+	background-color:#2898ac;
+}
+.ls-nav-prev:hover,
+.ls-nav-next:hover,
+.tparrows:hover {
+	background:#2898ac!important;
+}
+.gallery_item_wrapper .gallery_fadder,
+.featured_items .img_block .featured_item_fadder,
+.widget_flickr .flickr_badge_image a .flickr_fadder {
+	background:rgba(40,152,172,0);
+}
+
+.gallery_item_wrapper:hover .gallery_fadder,
+.featured_items .img_block:hover .featured_item_fadder,
+.widget_flickr .flickr_badge_image a:hover .flickr_fadder {
+	background:rgba(40,152,172,0.95);
+}
+a,
+blockquote.shortcode_blockquote.type2 .blockquote_wrapper:before,
+.shortcode_iconbox a:hover p,
+.shortcode_iconbox a:hover h5.iconbox_title,
+.featured_items_title a:hover,
+.shortcode_tab_item_title:hover,
+.most_popular .price_item_cost h3,
+.most_popular .price_item_cost h6,
+.portfolio_block.columns1 h2 a:hover,
+.pagerblock li a:hover,
+.optionset li a:hover,
+.optionset li.selected a,
+.fw a:hover h3,
+h2.blogpost_title a:hover,
+.listing_meta span a:hover,
+.widget_nav_menu ul li a:hover,
+.widget_archive ul li a:hover,
+.widget_pages ul li a:hover,
+.widget_categories ul li a:hover,
+.widget_recent_entries ul li a:hover,
+.widget_nav_menu ul li a:hover:before,
+.widget_archive ul li a:hover:before,
+.widget_pages ul li a:hover:before,
+.widget_categories ul li a:hover:before,
+.widget_recent_entries ul li a:hover:before,
+.widget_tag_cloud a:hover,
+.widget_posts li a:hover:before,
+.widget_posts li a:hover,
+.blogpost_share a:hover,
+.prev_next_links a:hover,
+.prev_next_links a:hover:before,
+.prev_next_links a:hover:after,
+.thiscommentbody a:hover,
+.contact_info_item .contact_info_text a:hover,
+.widget_meta a:hover,
+.widget_meta a:hover:before,
+.widget_recent_comments a:hover {
+	color:#2898ac;
+}
+.module_team .teamlink:hover,
+.module_team .teamlink:hover i {
+	color:#2898ac!important;
+}
+.main_header.short_header .menu > li > a > span:before {
+	border-right-color:rgba(40,152,172,0.85)!important;	
+}
+blockquote.shortcode_blockquote.type5 .blockquote_wrapper,
+.widget_tag_cloud a:hover {
+	border-color:#2898ac;
+}
+
+
+/* Typography */
+*,
+.optionset li:before,
+.pagerblock li:before,
+.main_header .sub-menu span {
+	font-family:Amethysta;
+	font-weight:400;
+}
+p, td, div,
+blockquote p {
+	font-size:13px;
+	line-height:24px;		
+}
+h1, h2, h3, h4, h5, h6,
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-family: Amethysta;
+	-moz-osx-font-smoothing:grayscale;
+	-webkit-font-smoothing:antialiased;	
+	text-decoration:none!important;
+	padding:0;
+	color:#252727;
+}
+.iconbox_header .ico i {
+	color:#252727;
+}
+.title {
+	color:#252727;
+}
+h1, h1 span, h1 a {
+	font-size:34px;
+	line-height:36px;
+}
+h2, h2 span, h2 a {
+	font-size:28px;
+	line-height:30px;
+}
+h3, h3 span, h3 a {
+	font-size:22px;
+	line-height:24px;
+}
+h4, h4 span, h4 a {
+	font-size:20px;
+	line-height:22px;	
+}
+h5, h5 span, h5 a {
+	font-size:17px;
+	line-height:19px;
+}
+h6, h6 span, h6 a {
+	font-size:15px;
+	line-height:17px;
+}
+.dropcap.type2,
+.dropcap.type5 {
+	color:#2898ac;
+}
+.module_cont hr.type3 {
+	border-color:#2898ac;
+}
+
+/* logo */
+.logo_def,
+.logo_retina {
+	width:180px;
+	height:50px;
+}
